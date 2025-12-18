@@ -1,0 +1,68 @@
+[
+    {
+        "order_id": 2392,
+        "items": [
+            {
+                "item_id": 10,
+                "quantity": 3,
+                "unit_price": 10.0
+            },
+            {
+                "item_id": 5234,
+                "quantity": 1,
+                "unit_price": 100.32
+            }
+        ],
+        "timestamp": "2025-10-23T06:02:15",
+        "completed_timestamp": "2025-10-23T23:58:15",
+        "status": "Completed",
+        "customer_info": {
+            "user_id": 12,
+            "address_id": 1203,
+            "customer_email": "customer12@email.com"
+        }
+    },
+    {
+        "order_id": 2393,
+        "items": [
+            {
+                "item_id": 20,
+                "quantity": 2,
+                "unit_price": 130.0
+            },
+            {
+                "item_id": 321,
+                "quantity": 1,
+                "unit_price": 32.5
+            }
+        ],
+        "timestamp": "2025-10-23T11:02:15",
+        "status": "In progress",
+        "customer_info": {
+            "user_id": 5,
+            "address_id": 2392,
+            "customer_email": "customer5@email.com"
+        }
+    },
+    {
+        "order_id": 2394,
+        "items": [
+            {
+                "item_id": 231,
+                "quantity": 2,
+                "unit_price": 23.32
+            },
+            {
+                "item_id": 789,
+                "quantity": 1,
+                "unit_price": 32.58
+            }
+        ],
+        "timestamp": "2025-10-23T20:02:15",
+        "status": "In progress",
+        "customer_info": {
+            "user_id": 42,
+            "address_id": 6342
+        }
+    }
+]
